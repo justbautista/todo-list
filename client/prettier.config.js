@@ -1,0 +1,26 @@
+const config = {
+	arrowParens: "always",
+	bracketSpacing: true,
+	endOfLine: "lf",
+	htmlWhitespaceSensitivity: "css",
+	insertPragma: false,
+	singleAttributePerLine: false,
+	bracketSameLine: false,
+	jsxBracketSameLine: false,
+	jsxSingleQuote: false,
+	printWidth: 80,
+	proseWrap: "preserve",
+	quoteProps: "preserve",
+	requirePragma: false,
+	semi: false,
+	singleQuote: false,
+	tabWidth: 4,
+	trailingComma: "es5",
+	useTabs: true,
+	embeddedLanguageFormatting: "auto",
+	vueIndentScriptAndStyle: false,
+	parser: "babel",
+	plugins: ["prettier-plugin-tailwindcss"],
+}
+
+export default config
